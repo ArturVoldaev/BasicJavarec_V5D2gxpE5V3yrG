@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.Scanner;
 
 public class BasicJavarecV5D2gxpE5V3yrG {
