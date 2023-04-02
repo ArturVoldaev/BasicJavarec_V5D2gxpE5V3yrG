@@ -10,7 +10,7 @@ public class BasicJavarecV5D2gxpE5V3yrG {
         String type = "";
         int tempNumber;
         int doubleNum;
-        int checkNumder = number;
+        int checkNumber = number;
 
         while (number >= 1) {
             tempNumber = number/2;
@@ -19,8 +19,8 @@ public class BasicJavarecV5D2gxpE5V3yrG {
             type += Integer.toString(doubleNum);
         }
 
-        System.out.println(new StringBuilder(type).reverse().toString() + " - result");
-        System.out.println(Integer.toBinaryString(checkNumder) + " - check your self");
+        System.out.println(new StringBuilder(type).reverse() + " - result");
+        System.out.println(Integer.toBinaryString(checkNumber) + " - check your self");
 
         sc.close();
     }
